@@ -1,0 +1,41 @@
+.container{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    height: 10rem;
+}
+.info{
+    margin-left: 1rem;
+}
+.thumbnail{
+    width: 15rem;
+    aspect-ratio: 16/9;
+    position: relative;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.thumbnail > img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.title{
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+.preview{
+    
+}
+.date{
+    margin-top: 0.2rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #6F6E73;
+}
+.category{
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: #6F6E73;
+}

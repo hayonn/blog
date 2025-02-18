@@ -1,0 +1,12 @@
+.wrap{
+    padding: 1rem;
+    width: 40rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.wrap img{
+    border-radius: 0.8rem;
+    margin: 0 auto;
+    margin: 1rem;
+    width: calc(100% - 2rem);
+}

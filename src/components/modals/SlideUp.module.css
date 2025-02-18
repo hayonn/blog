@@ -1,0 +1,42 @@
+.container{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background: #F5F5F7;
+    animation: fadeOut 0.1s ease-out forwards;
+    overflow-y: scroll;
+    z-index: 5;
+}
+.open{
+    animation-name: fadeIn;
+}
+.closeModal{
+    transition: all 0.1s;
+    visibility: hidden;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(2.5rem);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    transform: translateY(2.5rem);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+    .container{
+        background: #292A2C;
+    }
+}

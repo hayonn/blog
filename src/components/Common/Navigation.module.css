@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.7); 
+    backdrop-filter: blur(10px);
+    transition: backdrop-filter 0.3s, background 0.3s;
+}
+.menu{
+    width: 1.5rem;
+    float: right;
+    margin-right: 0.5rem;
+}
+@media (prefers-color-scheme: dark) {
+    .container{
+        background-color: #292A2C;
+        border-bottom: 1.5px solid black;
+    }
+}

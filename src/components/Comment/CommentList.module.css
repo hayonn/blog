@@ -1,0 +1,30 @@
+.container{
+    width: 40rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.commentWrap{
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+.name{
+    
+}
+.createdAt{
+    
+}
+.avatar{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: white;
+    border-radius: 50%;
+    float: left;
+    margin-right: 1rem;
+}
+.cmtProfile{
+    display: flex;
+    align-items: center;
+}
+.content{
+    margin-top: 1rem;
+}

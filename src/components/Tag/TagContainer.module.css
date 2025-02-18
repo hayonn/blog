@@ -1,0 +1,12 @@
+.tag{
+    padding: 0.3rem;
+    background: rgba(0,0,0,0.1);
+    display: inline-block;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+}
+.container{
+    margin-top: 3rem;
+    width: 40rem;
+    margin: 0 auto;
+}

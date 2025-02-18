@@ -1,0 +1,42 @@
+.infoBlock{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.infoBlock > input{
+    width: 2.3rem;
+    margin-right: 0.5rem;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0 0.5rem 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+.container > a{
+    background: #E8E7EC;
+    width: 3rem;
+    aspect-ratio: 1/1;
+    text-align: center;
+    line-height: 3rem;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: #6E6E70;
+}
+.next::before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  display: inline-block;
+}
+.prev::before {
+  content: "\f104";
+  font-family: "FontAwesome";
+  display: inline-block;
+}
+.infoBlock{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

@@ -1,0 +1,62 @@
+.list_container{
+    width:100%;
+    padding:2rem;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.postItem{
+    background:white;
+    border-radius:1rem;
+    overflow:hidden;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.thumbnailWrap{
+    aspect-ratio:2/1.2;
+    overflow:hidden;
+    width:100%;
+    position: relative;
+}
+.thumbnailWrap > img{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.categoryWrap{
+    margin:1rem 0 0 1rem;
+    font-size:0.8rem;
+    font-weight:700;
+    color:gray;
+}
+.titleWrap{
+    font-weight:600;
+    font-size:1.2rem;
+    padding:0.5rem 1rem 0.5rem 1rem;
+}
+.date{
+    margin:0 0 1rem 1rem;
+    font-size:0.9rem;
+    font-weight:800;
+    color:gray;
+}
+.archiveBlock{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.archiveBlock > button{
+    background: #E9E8ED;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    border-radius: 2em;
+    font-weight: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+    .postItem, .archiveBtn{
+        background: #292A2C;
+    }
+}

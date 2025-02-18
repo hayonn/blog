@@ -1,0 +1,52 @@
+.container{
+    margin: 0 auto;
+    width: 40rem;
+    margin-top: 3rem;
+}
+.authFields{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.nameInput{
+    box-sizing: 0;
+    outline: none;
+    border: none;
+    background: #e8e8e8;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.passwdInput{
+    box-sizing: 0;
+    outline: none;
+    border: none;
+    background: #e8e8e8;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.commentInput{
+    width: 100%;
+    box-sizing: 0;
+    outline: none;
+    border: none;
+    background: #e8e8e8;
+    border-radius: 0.5rem;
+    height: 5rem;
+    padding: 0.5rem;
+    resize: none;
+}
+.submit{
+    background: #0071E3;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    float: right;
+    font-size: 1.1rem;
+}
+@media (prefers-color-scheme: dark) {
+    .commentInput,.nameInput,.passwdInput {
+        background: #292A2C;
+        resize: none;
+    }
+}

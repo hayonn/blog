@@ -1,0 +1,43 @@
+.container{
+    width: 40rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background: #e8e8e8;
+    padding-left: 2rem;
+    border-radius: 1rem;
+}
+.commentWrap{
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+.name{
+    float: left;
+}
+.createdAt{
+    
+}
+.avatar{
+    width: 2.5rem;
+    height: 2.5rem;
+    background: white;
+    border-radius: 50%;
+    float: left;
+    margin-right: 1rem;
+    overflow: hidden;
+}
+.cmtProfile{
+    display: flex;
+    align-items: center;
+}
+.content{
+    margin-top: 1rem;
+}
+.adminLabel{
+    
+}
+
+@media (prefers-color-scheme: dark) {
+    .container {
+        background: #292A2C;
+    }
+}
